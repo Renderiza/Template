@@ -1,16 +1,14 @@
+# frozen_string_literal: true
+
 module YourName
-module PluginName
-
-	class ToolName
-
-		def initialize
-
-			# START TO WRITE YOUR CODE HERE...
-			puts "Test Successful"
-
-		end # initialize
-
-	end # class
-
-end # module
-end # module
+  module ExtensionName
+    # # #
+    class ToolName
+      # # #
+      def initialize
+        # START TO WRITE YOUR CODE HERE...
+        puts 'Hello World'
+      end
+    end
+  end
+end

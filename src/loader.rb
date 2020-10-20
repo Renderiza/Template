@@ -33,7 +33,6 @@ module YourName
       # --------------------------------
       tb.get_last_state == TB_NEVER_SHOWN ? tb.show : tb.restore
       file_loaded(__FILE__)
-
     end
   end
 end
